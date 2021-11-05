@@ -1,2 +1,2 @@
-# poc_repository_pattern_dapper
-Utilizando Repository Pattern com Dapper.
+# Utilizando Repository Pattern com Dapper.
+POC - Prova de Conceito - Utilizando Repository Pattern com Dapper.
