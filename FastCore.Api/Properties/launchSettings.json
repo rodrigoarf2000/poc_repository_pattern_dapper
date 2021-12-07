@@ -1,0 +1,52 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:56929",
+      "sslPort": 0
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "APPLICATION_NAME": "FastCore",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "FastCore (Development)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "APPLICATION_NAME": "FastCore",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:56929"
+    },
+    "FastCore (Homolog)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "APPLICATION_NAME": "FastCore",
+        "ASPNETCORE_ENVIRONMENT": "Homolog"
+      },
+      "applicationUrl": "http://localhost:56929"
+    },
+    "FastCore (Local)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "APPLICATION_NAME": "FastCore",
+        "ASPNETCORE_ENVIRONMENT": "Local"
+      },
+      "applicationUrl": "http://localhost:56929"
+    }
+  }
+} 
